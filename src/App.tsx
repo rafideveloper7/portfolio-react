@@ -186,9 +186,8 @@ const App: React.FC = () => {
         {/* #### LOGOS SECTION #### */}
 
         <section className="bg-gray-100 dark:bg-black lg:py-18 lg:px-6 border-t-4 border-b-4 border-solid border-green-700 bg-white dark:bg-black relative z-20">
-          <div className="py-8 lg:py-16 mx-auto max-w-screen-xl px-4 ">
+          <div className="py-8 lg:py-16 mx-auto max-w-screen-xl px-4 m-auto">
             <h2 className="mb-8 lg:mb-16 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-900 dark:text-white md:text-4xl">Technologies & Tools</h2>
-            <marquee behavior="scroll" loop >
               <div className="flex gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
                 <div className="flex justify-center items-center">
                   <span className="text-2xl font-bold dark:text-white">React</span>
@@ -208,8 +207,13 @@ const App: React.FC = () => {
                 <div className="flex justify-center items-center">
                   <span className="text-2xl font-bold dark:text-white">Next.js</span>
                 </div>
+                <div className="flex justify-center items-center">
+                  <span className="text-2xl font-bold dark:text-white">Tailwind CSS</span>
+                </div>
+                <div className="flex justify-center items-center">
+                  <span className="text-2xl font-bold dark:text-white">JavaScript</span>
+                </div>
               </div>
-            </marquee>
           </div>
         </section>
 
