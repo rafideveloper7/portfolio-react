@@ -1,0 +1,10 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run start",
+  "installCommand": "npm install",
+  "framework": "create-react-app",
+  "outputDirectory": "build",
+  "github": {
+    "silent": true
+  }
+}
