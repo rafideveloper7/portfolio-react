@@ -62,7 +62,7 @@ const Nav: React.FC = () => {
     >
       <Navbar.Brand href="/">
         <img 
-          src="./assets/images/hacker.png" 
+          src="./assets/images/developers-icon-9.png" 
           className={`mr-3 transition-all duration-300 ${
             isScrolled ? 'h-5 sm:h-7' : 'h-6 sm:h-9'
           }`} 
@@ -71,13 +71,13 @@ const Nav: React.FC = () => {
         <span className={`self-center whitespace-nowrap font-bold dark:text-white transition-all duration-300 ${
           isScrolled ? 'text-lg' : 'text-2xl'
         }`}>
-          HAK3R
+          Rafi{"{}"}
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2">
         <DarkThemeToggle />
         <a
-        href="https://github.com/Dan-Duran/hak3r"
+        href="https://github.com/rafideveloper7"
         target="_blank"
         rel="noopener noreferrer"
         className={`hidden md:flex mx-3 bg-gray-800 hover:bg-gray-900 py-2 px-4 transition-all duration-300 flex items-center gap-2 ${
