@@ -1,10 +1,14 @@
 {
+  "version": 2,
   "buildCommand": "npm run build",
   "devCommand": "npm run start",
   "installCommand": "npm install",
+  "outputDirectory": ".",
   "framework": "create-react-app",
-  "outputDirectory": "build",
-  "github": {
-    "silent": true
-  }
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
